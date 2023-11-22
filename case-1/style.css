@@ -1,0 +1,29 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;  /* opsional */
+}
+
+.parallax {
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header {
+    background-image: url('/case-1/img/img\ \(1\).jpg');
+}
+.content {
+    background-image: url('/case-1/img/img (2).jpg');
+}
+.footer {
+    background-image: url('/case-1/img/img (3).jpg');
+}
