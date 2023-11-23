@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <title>CASE 2 PARALLAX.JS</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="/case-2/style.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="nav justify-content-center">
+                <a class="nav-link" href="#example1">example1</a>
+                <a class="nav-link" href="#example2">example2</a>
+                <a class="nav-link" href="#example3">example3</a>
+                <a class="nav-link" href="#example4">example4</a>
+                <a class="nav-link" href="#example5">example5</a>
+
+            </nav>
+        </header>
+        <main>
+            <!-- example  -->
+            <div id="example1" class="parallax py-5 container-fluid pb-5">
+                <h1>Thumbnail 1</h1>
+                <p>simpleParallax.js adalah perpustakaan Vanilla JS yang sangat sederhana dan kecil yang menambahkan
+                    animasi paralaks pada gambar apa pun.</p>
+
+                <p> Di mana mungkin sulit untuk mendapatkan hasil melalui plugin lain, simpleParallax.js menonjol karena
+                    kemudahan dan rendering visualnya. Efek paralaks langsung diterapkan pada tag gambar, tidak perlu
+                    menggunakan gambar latar belakang.</p>
+                <img class="thumbnail1" src="https://simpleparallax.b-cdn.net/images/paint_5.jpg" alt="image">
+            </div>
+
+            <!-- example  -->
+            <div id="example2" class="parallax py-5 container-fluid bg-secondary text-white pb-5">
+                <h1>Thumbnail 2</h1>
+                <p>simpleParallax.js adalah perpustakaan Vanilla JS yang sangat sederhana dan kecil yang menambahkan
+                    animasi paralaks pada gambar apa pun.</p>
+
+                <p> Di mana mungkin sulit untuk mendapatkan hasil melalui plugin lain, simpleParallax.js menonjol karena
+                    kemudahan dan rendering visualnya. Efek paralaks langsung diterapkan pada tag gambar, tidak perlu
+                    menggunakan gambar latar belakang.</p>
+                <img class="thumbnail2" src="https://simpleparallax.b-cdn.net/images/paint_5.jpg" alt="image">
+            </div>
+
+            <!-- example  -->
+            <div id="example3" class="parallax py-5 container-fluid bg-warning text-white pb-5">
+                <h1>Thumbnail 3</h1>
+                <p>simpleParallax.js adalah perpustakaan Vanilla JS yang sangat sederhana dan kecil yang menambahkan
+                    animasi paralaks pada gambar apa pun.</p>
+
+                <p> Di mana mungkin sulit untuk mendapatkan hasil melalui plugin lain, simpleParallax.js menonjol karena
+                    kemudahan dan rendering visualnya. Efek paralaks langsung diterapkan pada tag gambar, tidak perlu
+                    menggunakan gambar latar belakang.</p>
+                <img class="thumbnail3" src="https://simpleparallax.b-cdn.net/images/paint_5.jpg" alt="image">
+            </div>
+
+            <!-- example  -->
+            <div id="example4" class="parallax py-5 container-fluid bg-danger text-white pb-5">
+                <h1>Thumbnail 4</h1>
+                <p>simpleParallax.js adalah perpustakaan Vanilla JS yang sangat sederhana dan kecil yang menambahkan
+                    animasi paralaks pada gambar apa pun.</p>
+
+                <p> Di mana mungkin sulit untuk mendapatkan hasil melalui plugin lain, simpleParallax.js menonjol karena
+                    kemudahan dan rendering visualnya. Efek paralaks langsung diterapkan pada tag gambar, tidak perlu
+                    menggunakan gambar latar belakang.</p>
+                <img class="thumbnail4" src="https://simpleparallax.b-cdn.net/images/paint_5.jpg" alt="image">
+            </div>
+
+            <!-- example  -->
+            <div id="example4" class="parallax py-5 container-fluid bg-dark text-white pb-5">
+                <h1>Thumbnail 5</h1>
+                <p>simpleParallax.js adalah perpustakaan Vanilla JS yang sangat sederhana dan kecil yang menambahkan
+                    animasi paralaks pada gambar apa pun.</p>
+
+                <p> Di mana mungkin sulit untuk mendapatkan hasil melalui plugin lain, simpleParallax.js menonjol karena
+                    kemudahan dan rendering visualnya. Efek paralaks langsung diterapkan pada tag gambar, tidak perlu
+                    menggunakan gambar latar belakang.</p>
+                <img class="thumbnail5" src="https://simpleparallax.b-cdn.net/images/paint_5.jpg" alt="image">
+            </div>
+        </main>
+        <footer>
+            <!-- place footer here -->
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+            </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+            integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+            </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+
+        <script>
+            // example thumbnail1
+            var image = document.getElementsByClassName('thumbnail1');
+            new simpleParallax(image);
+
+            // example thumbnail2
+            var image = document.getElementsByClassName('thumbnail2');
+            new simpleParallax(image, {
+                orientation: 'right'
+            });
+
+            // example thumbnail3
+            var image = document.getElementsByClassName('thumbnail3');
+            new simpleParallax(image, {
+                scale: 1.5
+            });
+
+            // example thumbnail4
+            var image = document.getElementsByClassName('thumbnail4');
+            new simpleParallax(image, {
+                overflow: true
+            });
+
+            // example thumbnail5
+            var image = document.getElementsByClassName('thumbnail5');
+            new simpleParallax(image, {
+                delay: .6,
+                transition: 'cubic-bezier(0,0,0,1)'
+            });
+        </script>
+    </body>
+
+</html>
